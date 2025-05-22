@@ -3,11 +3,15 @@
 
 def verificadorSenha():
     while True:
-            senha = input('Digite uma senha para cadastro\n')
-            if len(senha) > 8 and any(chr.isdigit() for chr in senha):
+            senha = input('Digite uma senha para cadastro, a senha deve conter letras, conter pelo menos um número e ser maior que 8 caracteres\n')
+            if len(senha) < 8:
+                print("Senha Inválida, deve conter mais de 8 Caracteres")
+            elif any(chr.isdigit() for chr in senha) == False:
+                print("Senha Inválida, deve conter pelo menos um número")      
+            elif any(chr.isalpha() for chr in senha) == False:
+                print("Senha Inválida, deve conter letras")   
+            else:
                 print("Senha Salva!")
                 break
-            else:
-                 (print("Senha incorreta, deve conter pelo menos um número e ser maior que 8 caracteres"))
-
+            
 verificadorSenha()
