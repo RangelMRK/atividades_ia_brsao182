@@ -10,9 +10,9 @@
 
 
 def gorjeta():
-    print('Digite o valor total da conta')
+    print('Digite o valor total da conta:')
     valor_conta = float(input())
-    print('Digite a porcentagem que gostaria de dar de gorjeta')
+    print('Digite a porcentagem que gostaria de dar de gorjeta:')
     porcentagem_gorjeta = float(input())
 
     gorjeta = valor_conta * (porcentagem_gorjeta/100)
