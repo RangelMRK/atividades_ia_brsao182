@@ -1,0 +1,5 @@
+Frase 1: Esta é minha primeira frase
+Frase 2: Esta é minha segunda frase
+Frase 3: Esta é minha terceira frase
+Frase 4: Esta frase foi adicionada
+Frase 5: Esta frase também foi adicionada!
